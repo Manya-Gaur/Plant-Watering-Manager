@@ -1,0 +1,39 @@
+<html>
+<head>
+	    <style>    
+	        body{
+				background-image: url("bg4.jpeg");
+			}
+			#txt{
+				width:737px;
+				height:50px;
+				font-size:25px;
+			}
+			#dd{
+				color:white;
+				background-color:black;
+				padding-top:10px;
+				height:75px;
+			}
+		</style>
+</head>
+	<body>
+	<center>
+		<div id="dd" id="txt"><h1>Customer</h1></div><br><br>
+		<form enctype="multipart/form-data" method="post" action="add_plant_pg_python.py">
+			<input id="txt" type="submit" name="Add Plant" value="Add Plant">
+		</form><br><br>
+		<form enctype="multipart/form-data" method="post" action="delete_plant_pg_python.py">
+			<input id="txt" type="submit" name="delete_Plant" value="Delete Plant">
+		</form><br><br>
+		<form enctype="multipart/form-data" method="post" action="edit_plant_details_pg_python.py">
+			<input id="txt" type="submit" name="edit_Plant" value="Edit Plant">
+		</form><br><br>
+		<form enctype="multipart/form-data" method="post" action="view_plants_python.py">
+			<input id="txt" type="submit" name="view_plant" value="View My Plants">
+		</form><br><br>
+		<A href="http://localhost/project/view_plants_to_be_watered.html"><button id="txt" >View Plants to be Watered</button></A><br><br>
+		
+	</center>
+	</body>
+</html>

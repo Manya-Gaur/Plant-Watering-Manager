@@ -1,0 +1,41 @@
+<html>
+    <head>
+    	<style>
+			body{
+				background-image: url("bg4.jpeg");
+			}
+			#txt{
+				width:737px;
+				height:50px;
+				font-size:25px;
+			}
+			#dd{
+				color:white;
+				background-color:black;
+				padding-top:10px;
+				height:75px;
+			}
+		</style>
+    </head>	
+	<body><center>
+		<div id="dd"><h1>Add Plant</h1></div>
+		<form enctype="multipart/form-data" method="post" action="signup_python.py">
+			<label id="txt" for="plant_type_id">Enter Plant Type Id:</label>
+			<input id="txt" type="number" placeholder="Refer the Below Table" name="plant_type_id"/><br><br>
+			<label id="txt" for="last_watering_date">Enter the last date of watering</label>
+			<input id="txt" type="date" name="last_watering_date"/><br><br>
+			<input id="txt" type="submit" name="submit">
+		</form>	
+		<br><br>
+<table style="width:60%" align="center">
+  <tr>
+    <th id="txt" >Plant Type Id</th>
+    <th id="txt" >Plant Type</th>
+  </tr>
+  <tr>
+    <td id="txt" align="center">Jill</td>
+    <td id="txt" align="center">Smith</td>
+  </tr>
+</table>
+	</body></center>
+</html>

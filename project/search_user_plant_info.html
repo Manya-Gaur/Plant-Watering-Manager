@@ -1,0 +1,34 @@
+<html>
+<head>
+	    <style>    
+	        body{
+				background-image: url("bg4.jpeg");
+			}
+			#txt{
+				width:737px;
+				height:50px;
+				font-size:25px;
+			}
+			#dd{
+				color:white;
+				background-color:black;
+				padding-top:10px;
+				height:75px;
+			}
+		</style>
+</head>
+	<body>
+		<center>
+			<div id="dd" id="txt"><h1>User Details</h1></div><br><br>
+			<form enctype="multipart/form-data" method="post" action="search_user_plant_info_python.py">
+			<center>
+				<label id="txt" for="email">E-mail</label><br> 
+				<input id="txt" type="email" id="email" name="email"><br><br>
+				<label id="txt" for="phone_no">Phone Number:</label><br>
+			    <input id="txt" type="tel" name="phone_no" placeholder="10-Digit mobile number"/><br><br>
+				<input id="txt" type="submit" value="SUBMIT">
+			</center>
+		</form>
+		</center>
+	</body>
+</html>

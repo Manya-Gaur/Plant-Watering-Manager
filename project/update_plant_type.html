@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<style>
+			body{
+				background-image: url("bg4.jpeg");
+			}
+			#txt{
+				width:737px;
+				height:50px;
+				font-size:25px;
+			}
+			#dd{
+				color:white;
+				background-color:black;
+				padding-top:10px;
+				height:75px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<center><div id="dd" id="txt"><b><h1>Update Plant Type</h1></b></div></center><br><br>
+		<center>
+	    <form enctype="multipart/form-data" method="post" action="update_plant_type_python.py">
+	    	<label id="txt" for="plant_type_name">Plant Type Name:</label><br>
+			<input id="txt" type="text" name="plant_type_name"/><br>
+			<label id="txt" for="season">Season:</label><br>
+			<input id="txt" type="text" name="season"/><br>
+			<label id="txt" for="freq">Frequency of Watering (in days):</label><br>
+			<input id="txt" type="text" name="freq"/><br>
+			<label id="txt" for="amt">Water Required (ml):</label><br>
+			<input id="txt" type="text" name="amt"/><br><br>
+			<input id="txt" type="submit"/>
+		</form>
+		</center>
+	</body>
+</html>

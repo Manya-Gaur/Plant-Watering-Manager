@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<style>
+			body{
+				background-image: url("bg4.jpeg");
+			}
+			#txt{
+				width:737px;
+				height:50px;
+				font-size:25px;
+			}
+			#dd{
+				color:white;
+				background-color:black;
+				padding-top:10px;
+				height:75px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<center><div id="dd" id="txt"><b><h1>Add Customer</h1></b></div></center>
+		<center>
+	    <form enctype="multipart/form-data" method="post" action="add_customer_python.py">
+	    	<label id="txt" for="fname">First Name:</label><br>
+			<input id="txt" type="text" name="fname"/><br>
+			<label id="txt" for="lname">Last Name:</label><br>
+			<input id="txt" type="text" name="lname"/><br>
+			<label id="txt" for="phone_no">Phone Number:</label><br>
+			<input id="txt" type="tel" name="phone_no" placeholder="10-Digit mobile number"/><br>
+			<label id="txt" for="emaIl">E-mail:</label><br>
+			<input id="txt" type="email" name="email"/><br>
+			<label id="txt" for="password">Set Password</label><br>
+			<input id="txt" type="password" name="password"/><br><br>
+			<input id="txt" type="submit"/>
+		</form>
+		</center>
+	</body>
+</html>
